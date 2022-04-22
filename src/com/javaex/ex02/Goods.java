@@ -7,11 +7,18 @@ public class Goods {
 	private int price;
 	
 	//생성자
+	//기본생성자 추가
+	public Goods() {
+		
+	}
+	
+	//컵 생성자
 	public Goods(String name, int price) {
 		this.name = name;
 		this.price = price;
 	}
 
+	
 	//메소드 - gs
 	public String getName() {
 		return name;
@@ -29,9 +36,10 @@ public class Goods {
 		this.price = price;
 	}
 	
+	
 	//메소드 일반
 	public void showInfo() {
-		System.out.println("상품명:" + name + ",가격" + price);
+		System.out.println("상품명:" + name + ",가격:" + price);
 	}
 	
 }
