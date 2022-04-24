@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class AccountApp {
 
     public static void main(String[] args) {
-		/*    
+		
 		Scanner sc = new Scanner(System.in);
 		boolean run = true;
 		int money;
@@ -52,7 +52,7 @@ public class AccountApp {
 		    }//switch 
 		    
 		}//while
-		sc.close();*/
+		sc.close();
     }
 
 }
